@@ -109,7 +109,7 @@ const Index = () => {
         {/* <WhyLifeMatters /> */}
         {/* <WhitePaper /> */}
         <HowToBuy />
-        <PreSale />
+        {/* <PreSale /> */}
         <Tokenomics />
         <TokenDistribution />
         <Roadmap />
