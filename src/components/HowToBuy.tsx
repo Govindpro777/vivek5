@@ -10,12 +10,12 @@ const steps = [
   {
     icon: Coins,
     title: "2. GET SOME SOL",
-    description: "You'll need some SOL in your wallet to swap for FLOKI Coin. Get it from a centralized exchange or a friend who owes you one.",
+    description: "You'll need some SOL in your wallet to swap for BRAR KISSING MILLHOUSE. Get it from a centralized exchange or a friend who owes you one.",
   },
   {
     icon: ArrowRightLeft,
-    title: "3. SWAP FOR FLOKI Coin",
-    description: "Go to PancakeSwap, paste the FLOKI Coin contract address, and swap your SOL. Welcome to the mainframe.",
+    title: "3. SWAP FOR BRAR KISSING MILLHOUSE",
+    description: "Go to PancakeSwap, paste the BRAR KISSING MILLHOUSE contract address, and swap your SOL. Welcome to the mainframe.",
   },
 ];
 
@@ -31,7 +31,7 @@ const HowToBuy = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          HOW DO I BUY FLOKI COIN
+          HOW DO I BUY BRAR KISSING MILLHOUSE
         </motion.h2>
 
         <motion.p
@@ -41,7 +41,7 @@ const HowToBuy = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Get started with FLOKI Coin in three simple steps
+          Get started with BRAR KISSING MILLHOUSE in three simple steps
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-8">

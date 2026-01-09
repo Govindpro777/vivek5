@@ -17,7 +17,7 @@ const galleryImages = [
 
 const Gallery = () => {
   return (
-    <section id="gallery" className="relative py-20 overflow-hidden">
+    <section id="gallery" className="relative pb-20 pt-10 overflow-hidden">
       {/* Background */}
       <div className="container mx-auto px-4 relative z-10">
         <motion.h2
