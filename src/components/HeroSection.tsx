@@ -85,12 +85,13 @@ const HeroSection = () => {
         </div>
         
 
-        <div className="mt-16 sm:mt-28">
+<div className="mt-16 sm:mt-28">
   <motion.div
     className="flex justify-center items-center py-4"
-    initial={{ opacity: 1, x: 0 }}
+    initial={{ opacity: 0, x: "-100%" }}
     whileInView={{ opacity: 1, x: 0 }}
     viewport={{ once: true }}
+    transition={{ duration: 1.2, ease: "easeOut" }}
   >
     <img
       src={Sword}
@@ -100,6 +101,7 @@ const HeroSection = () => {
     />
   </motion.div>
 </div>
+
 
       </div>
     </section>
