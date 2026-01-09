@@ -5,8 +5,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import Cloud from "@/assets/cloud.png";
 
 const socialLinks = [
-  { icon: FaXTwitter, href: "https://x.com/flokipump_fun", label: "X" },
-  { icon: Send, href: "https://t.me/flokipum", label: "Telegram" },
+  { icon: FaXTwitter, href: "#", label: "X" },
+  { icon: Send, href: "#", label: "Telegram" },
   { icon: Music2, href: "#", label: "TikTok" },
   { icon: Instagram, href: "#", label: "Instagram" },
 ];
