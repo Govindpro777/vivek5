@@ -2,11 +2,6 @@
 import { motion } from "framer-motion";
 import { Twitter, Send, Music2, Instagram } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
-import Rock1 from "@/assets/X.png";
-import Rock2 from "@/assets/Telegram.png";
-import Rock3 from "@/assets/bom.png";
-import Rock4 from "@/assets/DEX.png";
-import Rock5 from "@/assets/CA.png";
 import Sword from "@/assets/sword.png";
 
 const socialLinks = [
@@ -17,24 +12,7 @@ const socialLinks = [
 ];
 
 const HeroSection = () => {
-  const rocks = [
-    { src: Rock1, href: "https://x.com/flokipump_fun", label: "X", side: "left" },
-    { src: Rock2, href: "https://t.me/flokipum", label: "Telegram", side: "left" },
-    { 
-      src: Rock3, 
-      side: "center", 
-      scale: 1.7, 
-      href: "#warzone",
-      label: "BOM → Warzone" 
-    },
-    { src: Rock4, side: "right" },
-    { 
-      src: Rock5, 
-      side: "right", 
-      href: "#sword",
-      label: "CA → Sword" 
-    },
-  ];
+
 
   return (
     <section className="relative min-h-[calc(100vh-4rem)] flex items-center pt-24 pb-10 sm:pb-16 lg:pt-28">
@@ -43,7 +21,7 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="space-y-6 text-center lg:text-left">
             <motion.h1
-              className="font-display text-3xl md:text-7xl text-secondary text-shadow-blue leading-tight"
+              className="font-display text-3xl md:text-6xl text-secondary text-shadow-blue leading-tight"
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
@@ -105,100 +83,6 @@ const HeroSection = () => {
             </motion.div>
           </div>
         </div>
-
-        {/* Rocks Row */}
-        <motion.div
-          className="w-full mt-36 mb-8 flex items-center justify-between px-8 sm:px-12 lg:px-20"
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-        >
-          {rocks.map((rock, index) => (
-            rock.href ? (
-              <motion.a
-                key={index}
-                href={rock.href}
-                target={rock.href.startsWith('#') ? '_self' : '_blank'}
-                rel={rock.href.startsWith('http') ? 'noopener noreferrer' : ''}
-                className="block"
-              >
-                <motion.img
-                  src={rock.src}
-                  alt={rock.label}
-                  className={`w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 object-contain transition-all duration-300 cursor-pointer ${
-                    rock.side === "center" ? "scale-125 shadow-2xl" : "hover:scale-110"
-                  }`}
-                  initial={{ opacity: 1, y: 50 }}
-                  animate={
-                    rock.side === "center"
-                      ? {
-                          opacity: 1,
-                          y: [0, -25, 0],
-                          transition: {
-                            duration: 2.5,
-                            repeat: Infinity,
-                            ease: "easeInOut",
-                            delay: 1 + index * 0.15,
-                          },
-                        }
-                      : { opacity: 1, y: 0 }
-                  }
-                  transition={
-                    rock.side !== "center"
-                      ? {
-                          duration: 0.6,
-                          delay: 1 + index * 0.15,
-                        }
-                      : {}
-                  }
-                  whileHover={{ 
-                    scale: rock.side === "center" ? 1.3 : 1.15,
-                    rotate: index % 2 === 0 ? -5 : 5,
-                    y: -10 
-                  }}
-                />
-              </motion.a>
-            ) : (
-              <motion.img
-                key={index}
-                src={rock.src}
-                alt={`Rock ${index + 1}`}
-                className={`w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 object-contain transition-all duration-300 ${
-                  rock.side === "center" ? "scale-125 shadow-2xl" : "hover:scale-110"
-                }`}
-                initial={{ opacity: 1, y: 50 }}
-                animate={
-                  rock.side === "center"
-                    ? {
-                        opacity: 1,
-                        y: [0, -25, 0],
-                        transition: {
-                          duration: 2.5,
-                          repeat: Infinity,
-                          ease: "easeInOut",
-                          delay: 1 + index * 0.15,
-                        },
-                      }
-                    : { opacity: 1, y: 0 }
-                }
-                transition={
-                  rock.side !== "center"
-                    ? {
-                        duration: 0.6,
-                        delay: 1 + index * 0.15,
-                      }
-                    : {}
-                }
-                whileHover={{ 
-                  scale: rock.side === "center" ? 1.3 : 1.15,
-                  rotate: index % 2 === 0 ? -5 : 5,
-                  y: -10 
-                }}
-              />
-            )
-          ))}
-        </motion.div>
-
         
 
         <div className="mt-16 sm:mt-28">
