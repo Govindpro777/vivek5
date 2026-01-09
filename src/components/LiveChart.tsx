@@ -35,15 +35,28 @@ const LiveChart = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          {/* Responsive iframe wrapper */}
-          <div className="aspect-[4/5] xs:aspect-[3/4] sm:aspect-video w-full bg-card">
+
+
+          {/* <div className="aspect-[4/5] xs:aspect-[3/4] sm:aspect-video w-full bg-card">
             <iframe
-              src="https://dexscreener.com/bsc/0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae?embed=1&theme=dark&trades=0&info=0"
+              src="https://dexscreener.com/solana/5fqZTGmK3LMRqZmGerz8i6V1vGg7vMAtjQPrBRi5P8YH?embed=1&theme=dark&trades=1&info=0"
               className="w-full h-full border-0"
-              title="SOL Chart - DEX Screener"
+              title="SOL/USDT Chart - DEX Screener"
               allow="clipboard-write"
             />
-          </div>
+          </div> */}
+
+          <div className="aspect-[4/5] xs:aspect-[3/4] sm:aspect-video w-full bg-card">
+  <iframe
+    src="https://dexscreener.com/solana/ccybxbmhr2o9vyz2wmjcrvi59wh42xkxf6qrzchbhpn5?embed=1&theme=dark&trades=0&info=0"
+    className="w-full h-full border-0"
+    title="SOL Chart - DEX Screener"
+    allow="clipboard-write"
+  />
+</div>
+
+
+
         </motion.div>
 
          <motion.div
