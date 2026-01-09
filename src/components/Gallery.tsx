@@ -27,7 +27,7 @@ const Gallery = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-         BART GALLERY
+         Brat kissing millhouse GALLERY
         </motion.h2>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">

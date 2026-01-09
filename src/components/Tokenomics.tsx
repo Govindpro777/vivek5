@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 const tokenData = [
-  { name: "Pump.Fun Tokens", percentage: 77, color: "#4A9BD9", description: "Available during the fair launch" },
+  { name: "Brat kissing millhouse Tokens", percentage: 77, color: "#4A9BD9", description: "Available during the fair launch" },
   { name: "Burned", percentage: 7, color: "#4CAF50", description: "Tokens removed from circulation forever" },
   { name: "Humane Society / Cat Shelters", percentage: 5, color: "#FF9800", description: "Donations to help our furry friends" },
   { name: "Dev Team", percentage: 4, color: "#E74C3C", description: "Vested to ensure long-term commitment" },
-  { name: "Marketing", percentage: 3, color: "#9E9E9E", description: "To spread the word of Pumpkin" },
+  { name: "Marketing", percentage: 3, color: "#9E9E9E", description: "To spread the word of Brat kissing millhouse" },
   { name: "Airdrops", percentage: 2, color: "#8BC34A", description: "Rewards for the community" },
-  { name: "Pumpkin The Cat", percentage: 1, color: "#FFC107", description: "For food, treats, and litter" },
+  { name: "Brat kissing millhouse The Cat", percentage: 1, color: "#FFC107", description: "For food, treats, and litter" },
 ];
 
 const Tokenomics = () => {
@@ -38,7 +38,7 @@ const Tokenomics = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            PUMP.FUN FAIR LAUNCH - NO PRESALE, NO DRAMA.
+            Brat kissing millhouse FAIR LAUNCH - NO PRESALE, NO DRAMA.
           </motion.p>
         </motion.div>
 

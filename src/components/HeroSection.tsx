@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Twitter, Send, Music2, Instagram } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
-import Sword from "@/assets/sword.png";
+import Cloud from "@/assets/cloud.png";
 
 const socialLinks = [
   { icon: FaXTwitter, href: "https://x.com/flokipump_fun", label: "X" },
@@ -85,22 +85,36 @@ const HeroSection = () => {
         </div>
         
 
-<div className="mt-16 sm:mt-28">
+
+<div className="mt-12">
   <motion.div
     className="flex justify-center items-center py-4"
-    initial={{ opacity: 0, x: "-100%" }}
-    whileInView={{ opacity: 1, x: 0 }}
-    viewport={{ once: true }}
-    transition={{ duration: 1.2, ease: "easeOut" }}
+    initial={{ opacity: 0, y: 50 }}
+    animate={{ 
+      opacity: 1,
+      y: [50, -20, 0],
+      transition: {
+        opacity: { duration: 1.2 },
+        y: {
+          duration: 6,
+          repeat: Infinity,
+          repeatType: "reverse",
+          ease: "easeInOut"
+        }
+      }
+    }}
+    viewport={{ once: false }}
   >
     <img
-      src={Sword}
-      alt="Sword"
-      id="sword"
-      className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl h-auto object-contain"
+      src={Cloud}
+      alt="Cloud"
+      id="cloud"
+      className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-lg h-auto object-contain"
     />
   </motion.div>
 </div>
+
+
 
 
       </div>

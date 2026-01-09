@@ -136,7 +136,7 @@ const phases = [
     title: "PHASE 4 – EXPANSION & LONGEVITY",
     items: [
       { text: "Get listed on more CEXs", completed: false },
-      { text: "Launch NFTs or an interactive FlokiPumpFun game", completed: false },
+      { text: "Launch NFTs or an interactive Brat Kissing Millhouse game", completed: false },
       { text: "Create a DAO (decentralized voting) for the community", completed: false },
       { text: "Continue building and adding new features", completed: false },
     ],

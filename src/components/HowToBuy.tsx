@@ -10,12 +10,12 @@ const steps = [
   {
     icon: Coins,
     title: "2. GET SOME SOL",
-    description: "You'll need some SOL in your wallet to swap for BRAR KISSING MILLHOUSE. Get it from a centralized exchange or a friend who owes you one.",
+    description: "You'll need some SOL in your wallet to swap for Brat kissing millhouse. Get it from a centralized exchange or a friend who owes you one.",
   },
   {
     icon: ArrowRightLeft,
-    title: "3. SWAP FOR BRAR KISSING MILLHOUSE",
-    description: "Go to PancakeSwap, paste the BRAR KISSING MILLHOUSE contract address, and swap your SOL. Welcome to the mainframe.",
+    title: "3. SWAP FOR BRAT KISSING MILLHOUSE",
+    description: "Go to PancakeSwap, paste the Brat kissing millhouse contract address, and swap your SOL. Welcome to the mainframe.",
   },
 ];
 
@@ -31,7 +31,7 @@ const HowToBuy = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          HOW DO I BUY BRAR KISSING MILLHOUSE
+          HOW DO I BUY BRAT KISSING MILLHOUSE COIN
         </motion.h2>
 
         <motion.p
@@ -41,7 +41,7 @@ const HowToBuy = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Get started with BRAR KISSING MILLHOUSE in three simple steps
+          Get started with BRAT KISSING MILLHOUSE in three simple steps
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -99,7 +99,7 @@ const HowToBuy = () => {
             whileHover={{ scale: 1.05, boxShadow: "0 0 40px hsl(200 80% 70% / 0.8)" }}
             whileTap={{ scale: 0.95 }}
           >
-            BUY FLOKI NOW
+            BUY BRAT KISSING MILLHOUSE NOW
           </motion.a>
         </motion.div>
       </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/hero-right.jpg";
+import logo from "@/assets/logo.jpeg";
 
 const navLinks = [
   { name: "GALLERY", href: "#gallery" },
@@ -70,7 +70,7 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.4, duration: 0.4 }}
         >
-          BUY ON Brat kissing millhouse
+          BUY ON BRAT KISSING MILLHOUSE
         </motion.a>
 
         {/* Mobile menu button */}
@@ -106,7 +106,7 @@ const Navbar = () => {
               className="mt-2 block w-full text-center px-4 py-2 bg-secondary text-secondary-foreground font-display text-sm rounded-lg"
               onClick={() => setOpen(false)}
             >
-              BUY ON Brat kissing millhouse
+              BUY ON BRAT KISSING MILLHOUSE
             </a>
           </div>
         </motion.div>

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Twitter, Send, Music2, Instagram, Cat } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
-import logo from "@/assets/hero-right.jpg";
+import logo from "@/assets/logo.jpeg";
 
 const socialLinks = [
   { icon: FaXTwitter, href: "https://x.com/L1FEProtocol", label: "Twitter" },
